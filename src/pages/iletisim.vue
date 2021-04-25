@@ -38,11 +38,29 @@ h1{
     margin-bottom:59px;
     font-size: 60px;
     margin-bottom: 25px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+@media(max-width: 1200px){ 
+
+}
+@media(max-width: 850px){ 
+    h1{
+        font-size: 35px;
+        letter-spacing: 1px;
+    } 
+}
+@media(max-width: 576px){ 
+    h1{
+        margin-top: 15px;
+        font-size: 35px;
+        letter-spacing: 1px;
+    } 
+
+
 }
 
 </style>

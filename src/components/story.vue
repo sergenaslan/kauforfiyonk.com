@@ -1,7 +1,7 @@
 <template>
     <div class="storyContent">
-        <div class="leftIcon" @click="scrollStoryLeft" :class="{ displayNone :  !showLeftButton}"></div>
-        <div class="rightIcon" @click="scrollStoryRight" :class="{ displayNone :  !storyScroll}"></div>
+        <div class="leftIconStory" @click="scrollStoryLeft" :class="{ displayNone :  !showLeftButton}"></div>
+        <div class="rightIconStory" @click="scrollStoryRight" :class="{ displayNone :  !storyScroll}"></div>
          <div class="storyRow" @mousedown="mousedownStory" @mousemove="mousemoveStory"  @mouseleave="mouseleaveStory" @mouseup="mouseleaveStory">
             <div class="story"  v-for="(story , index ) in stories" :key="story.image"  @click="sedtoStory(index)">
                 <img class="imgRespon" :src="story.image" alt="">
@@ -172,8 +172,8 @@ export default {
     width: 0px;
     height: 0;
 }
- .leftIcon,
- .rightIcon{
+ .leftIconStory,
+ .rightIconStory{
     position: absolute;
     cursor: pointer;
     top: 40%;
@@ -185,11 +185,11 @@ export default {
     z-index: 2;
     display: none;
 }
-.leftIcon{
+.leftIconStory{
     left: 5%;
     background-position: 4px center;
 }
-.rightIcon{
+.rightIconStory{
     right: 5%;
     background-position: -24px center;
 }

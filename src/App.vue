@@ -26,6 +26,7 @@ export default {
   max-width: 1600px;
   margin:0 auto;
   padding:0 5%;
+  overflow: hidden;
 }
 h1{
   text-align: center;

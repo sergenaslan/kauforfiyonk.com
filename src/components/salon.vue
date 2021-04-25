@@ -136,16 +136,19 @@ h1{
     position: absolute;
     cursor: pointer;
     top: 40%;
-    width: 25px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     background-image: url("../assets/images/left_right_Icon.png");
+    border-radius: 50%;
 }
 .salon .salonSlider .leftIcon{
     left: 5%;
+    background-position: 5px;
+
 }
 .salon .salonSlider .rightIcon{
     right: 5%;
-    background-position: 25px;
+    background-position: 30px;
 }
 .salon .salonAdres{
     width: 100%;

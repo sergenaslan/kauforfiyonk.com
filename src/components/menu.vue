@@ -169,7 +169,6 @@ export default {
     overflow: hidden;
     width: calc(100% * 3);
     left: calc(-100% * var(--i));
-    border:2px yellow red;
 }
 .animationActive{
     display: inline-block;
@@ -189,6 +188,7 @@ export default {
 .menuRow{
     position: fixed;
     top: 0;
+    left: 0%;
     z-index: 80;
     display: none;
     background-color: black;
@@ -286,7 +286,6 @@ ul li {
     }
     .menuLink{
         width: 100%;
-        border:1px solid red;
     }
     .menuImage{
         display: none;

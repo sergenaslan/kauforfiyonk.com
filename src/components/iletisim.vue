@@ -118,7 +118,7 @@ h2{
         margin:0 auto;
     }
     h2{
-        font-size: 45px;
+        font-size: 30px;
     }
 }
 @media(max-width: 576px){
@@ -133,6 +133,9 @@ h2{
         width: 100%;
         padding-top: 20px;
         margin:0 auto;
+    }
+    .infoData .adresText{
+        font-size: 18px;
     }
 }
 </style>

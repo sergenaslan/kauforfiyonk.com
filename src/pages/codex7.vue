@@ -65,7 +65,7 @@ h1{
 }
 @media(max-width: 576px){ 
     h1{
-        font-size: 30px;
+        font-size: 40px;
         letter-spacing: 5px;
     } 
     .infoText img{
